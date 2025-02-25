@@ -324,6 +324,7 @@ let g_selectedSize=5;
 let g_selectedType=POINT;
 
 function addActionsForHtmlUI() {
+  /*
   // angle slider events
   document.getElementById('angleSlide').addEventListener('mousemove', function () {g_globalAngle = this.value; renderAllShapes(); })
   document.getElementById('verticalAngleSlide').addEventListener('mousemove', function () {g_globalVerticalAngle = this.value; renderAllShapes(); })
@@ -350,6 +351,7 @@ function addActionsForHtmlUI() {
   document.getElementById('headAnimateOff').onclick = function () {g_headAnimate = false;}
   document.getElementById('earAnimateOn').onclick = function () {g_earAnimate = true;}
   document.getElementById('earAnimateOff').onclick = function () {g_earAnimate = false;}
+  */
 }
 
 function initTextures() {
